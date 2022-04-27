@@ -64,7 +64,7 @@ HTML是一种**超文本标记语言（英语：HyperText Markup Language，简�
 
 浏览器是网页显示和运行的平台，常用浏览器有IE、火狐、谷歌、Safari等
 
-微软公司：IE、edge浏览器 
+微软公司：IE、edge浏览器
 
 苹果公司：safari浏览器
 
