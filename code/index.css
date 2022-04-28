@@ -17,4 +17,3 @@ div{
     color: red;
     font-size: 24px;
 }
-div > p{样式声明} /* 选择div 里面的所有最近一级 p 标签元素*/
