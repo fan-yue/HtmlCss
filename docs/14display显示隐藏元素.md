@@ -88,13 +88,13 @@ display隐藏元素后，不再占有原来的位置
 
 
 
-==visibility==属性用于指定一个元素应该是可见还是隐藏。
+**visibility**属性用于指定一个元素应该是可见还是隐藏。
 
 visibility: hidden;					/* 元素隐藏，保留位置 */
 
 visibility: visible; 					/* 元素可视 */
 
-==visibility隐藏元素后，继续占有原来的位置==
+**visibility隐藏元素后，继续占有原来的位置**
 
 
 
