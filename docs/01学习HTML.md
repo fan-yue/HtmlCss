@@ -639,7 +639,9 @@ div和span是我们开发网页中使用最多的元素之一
 `checkbox`：复选框，允许在待选项中选中一项以上的选项。
 
 ```
-<input type="checkbox" value="计算机基础">
+<input type="checkbox" value="香蕉">香蕉
+<input type="checkbox" value="苹果">苹果
+<input type="checkbox" value="梨">梨
 ```
 
 
@@ -653,7 +655,7 @@ div和span是我们开发网页中使用最多的元素之一
 
 
 
-`file`：上传文件时进行使用
+`file`：文本上传，上传文件时进行使用
 
 ```
 <input type="file">
@@ -709,6 +711,8 @@ div和span是我们开发网页中使用最多的元素之一
 
 
 
+
+
 | type的属性值 | 作用                                                         |
 | ------------ | ------------------------------------------------------------ |
 | button       | 定义可点击按钮（多数情况下，用于通过 JavaScript 启动脚本）。 |
@@ -727,7 +731,7 @@ div和span是我们开发网页中使用最多的元素之一
 ##### `<select>`下拉列表标签
 
 ```
-<select size='数值	'>
+<select size='数值'>
     <option>123</option>
     <option>456</option>
     <option>789</option>
