@@ -259,3 +259,14 @@ border-left: 1px solid green;
 ### border-bottom-left-radius
 
 给边框左下角添加圆角边框
+
+
+
+## 利用border制作三角形
+
+```
+border-width: 40px;
+border-style: solid;
+border-color: transparent transparent transparent red;
+```
+
