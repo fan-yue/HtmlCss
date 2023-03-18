@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            /* 使用锚点链接时，可以给HTML标签使用 scroll-behavior: smooth ，就可以使用平滑返回顶部效果  */
+            scroll-behavior: smooth;
+        }
+        .one{
+            width: 100%;
+            height: 1500px;
+            background-color:aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <a href="#nav">导航</a>
+    </div>
+    <div class="one">a</div>
+    <div class="one">b</div>
+    <div class="one">c</div>
+    <div class="one">d</div>
+    <div>
+        <a href="#"  id="href">回到顶部</a>
+    </div>
+</body>
+</html>
