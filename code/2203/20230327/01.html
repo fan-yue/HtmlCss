@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            /* 定位：绝对定位 */
+            position: absolute;
+        }
+        .a{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            /* 定位的叠放次序 z-index:数值，数值越大，对应的元素越靠前 */
+            z-index: 101;
+        }
+        .b{
+            width: 150px;
+            height: 150px;
+            background-color: blue;
+            z-index: 2;
+        }
+        .c{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            z-index: 102;
+        }
+    </style>
+</head>
+<body>
+    <div class="a one">a</div>
+    <div class="b one">b</div>
+    <div class="c one">c</div>
+</body>
+</html>

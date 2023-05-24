@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .rwap{
+        width: 960px;
+        height: 585px;
+        margin: 0 auto;
+        background: url(./作业与项目/xian.jpg);
+        position: relative;
+    }
+    .clearfix::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .clearfix{
+        *zoom: 1;
+    }
+    .box2{
+        width: 610px;
+        height: 405px;
+        background-color: #f0f9ff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+    }
+    .box2>.p1{
+        text-align: center;
+        color: teal;
+        font-size: 20px;
+    }
+    form{
+        width: 450px;
+        height: 300px;
+        /* border: 1px solid red; */
+        margin: 0 auto;
+        color: gray;
+    }
+    input[type="text"]{
+        width: 175px;
+        height: 22px;
+        border-radius: 5px;
+        border: 1px solid gray;
+        outline: none;
+    }
+    .username span{
+        font-size: 10px;
+    }
+    input[type="email"]{
+        width: 175px;
+        height: 22px;
+        border-radius: 5px;
+        border: 1px solid gray;
+        margin-top: 10px;
+        outline: none;
+    }
+    .email span{
+        font-size: 10px;
+    }
+    input[type="password"]{
+        width: 175px;
+        height: 22px;
+        border-radius: 5px;
+        border: 1px solid gray;
+        margin-top: 10px;
+        outline: none;
+    }
+    .password span{
+        font-size: 10px;
+    }
+    /* .vcode{
+        width: 400px;
+        height: 22px;
+        border: 1px solid red;
+        margin-top: 10px;
+    } */
+    .vcode input[type="text"]{
+        width: 66px;
+        height: 22px;
+        margin-top: 10px;
+        outline: none;
+    }
+    .vcode1{
+        width: 55px;
+        height: 20px;
+        color: royalblue;
+        border: 2px solid brown;
+        text-align: center;
+        font-weight: 700;
+        position: absolute;
+        left: 232px;
+        top: 212px;
+    }
+    .vcode span{
+        display: inline-block;
+        color: darkblue;
+        font-size: 12px;
+        margin-left: 70px;
+    } 
+    input[type="checkbox"]{
+        margin-top: 20px;
+        margin-left: 10px;
+        outline: none;
+    }
+    .agree a{
+        font-size: 12px;
+        text-decoration: none;
+    }
+    input[type="submit"]{
+        width: 94px;
+        height: 22px;
+        border-radius: 5px;
+        background-color: #268ab4;
+        border: 1px solid #268ab4;
+        margin-left: 116px;
+        margin-top: 40px;
+        outline: none;
+    }
+</style>
+<body>
+    <div class="rwap clearfix">
+       <div class="box2">
+         <p class="p1">如果您还没有账号 赶紧注册吧</p>
+         <!-- 表单盒 -->
+         <form action="#">
+           <div class="username">
+            &emsp;用户名:&nbsp;<input type="text" name="" autocomplete="off"><span> <span style="color: red;">*</span> 6位以上英文字母或数字组求</span>
+           </div>
+            <div class="email">
+               电子邮箱: <input type="email" name="" autocomplete="off" required><span> <span style="color: red;">*</span> 例如:abc@qq.com</span>
+            </div>
+            <div class="password">
+                &emsp;密&emsp;码:&nbsp;<input type="password"><span> <span style="color: red;" maxlength="6">*</span> 6长度要求在6-16位之间</span>
+            </div>
+            <div class="password">
+                确认密码:&nbsp;<input type="password"><span> <span style="color: red;">*</span> 6长度要求在6-16位之间</span>
+            </div>
+            <div class="vcode">
+            &emsp;验证码:&nbsp;<input type="text"><div class="vcode1">5f58</div><span>看不清?换一张</span>
+            </div>
+            <div class="agree">
+             <input type="checkbox" checked><a href="#">我已阅读并同意《网站注册协议》</a>
+            </div>
+            <div class="regist">
+              <input type="submit" value="马上注册">
+            </div>
+         </form>
+       </div>
+    </div>
+</body>
+</html>

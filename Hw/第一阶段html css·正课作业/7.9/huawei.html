@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .clearfix::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .clearfix{
+        *zoom: 1;
+    }
+    .huawei{
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    header{
+        width: 100%;
+        height: 80px;
+        /* border: 1px solid red; */
+    }
+    /* 左边导航 */
+    .header_l{
+        width: 1200px;
+        height: 80px;
+        /* border: 1px solid red; */
+        float: left;
+    }
+    .header_l img{
+        margin-top: 25px;
+        margin-left: 30px;
+        float: left;
+    }
+    .header_l span{
+        font-size: 25px;
+        line-height: 80px;
+        float: left;
+    }
+    .header_l li{
+        float: left;
+        list-style: none;
+        line-height: 80px;
+        margin-left: 50px;
+    }
+    .l1 img{
+        position: absolute;
+        top: 11px;
+        left: 464px;
+    }
+    .l2 img{
+        position: absolute;
+        top: 11px;
+        left: 938px;
+    }
+    /* 右边导航 */
+    .header_r{
+        width: 200px;
+        height: 30px;
+        /* border: 1px solid red; */
+        float: right;
+        margin-top: 30px;
+        font-size: 14px;
+        color: silver;
+    }
+    .header_r img{
+        margin-left: 10px;
+
+    }
+    /* 导航 */
+    nav{
+        width: 100%;
+        height: 650px;
+        background: url(./华为/images/huawei.jpg)no-repeat;
+        
+    }
+    nav h1{
+        line-height: 200px;
+          font-size: 70px;
+          text-align: center;
+          color: tomato;
+    }
+    input[type="text"]{
+        width: 560px;
+        height: 59px;
+        padding-left: 20px;
+        margin-left: 570px;
+        border-radius: 10px 0 0 10px;
+        outline: none;
+        border: 1px solid gray;
+    }
+    input[type="submit"]{
+        width: 120px;
+        height: 62px;
+        text-align: center;
+        line-height: 60px;
+        color: white;
+        background-color: #e31f2b;
+        font-size: 20px;
+        border-radius: 0 10px 10px 0;
+        border: none;
+        margin-left: -7px;
+        outline: none;
+        vertical-align: middle;
+    }
+    .zp span{
+        font-weight: 700;
+        color: red;
+    }
+    .zp1{
+        margin-top: 10px;
+        margin-left: 570px;
+    }
+    .zp2{
+        margin-left: 30px;
+    }
+    .tiao{
+        width: 100%;
+        height: 30px;
+        background-color: rgb(211, 210, 210);
+    }
+    .biaoti{
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        line-height: 200px;
+        font-size: 50px;
+    }
+    .nr{
+        width: 1200px;
+        margin: 0 auto;
+        /* background-color: skyblue; */
+    }
+    .nr1{
+        width: 595px;
+        height: 600px;
+        /* border: 1px solid red; */
+        float: left;
+    }
+    .nr1 img{
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    .p1{
+        width: 120px;
+        height: 50px;
+        background-color: #e3262c;
+        border-radius: 0 20px;
+        color: white;
+        text-align: center;
+        line-height: 50px;
+        margin-left: 230px;
+        margin-top: 20px;
+    }
+    .p2{
+        text-align: center;
+        margin-top: 40px;
+        color: gray;
+    }
+    footer{
+        width: 100%;
+        height: 290px;
+        background-color: #363636;
+    }
+    .wei{
+        width: 560px;
+        height: 290px;
+        /* border: 1px solid red; */
+        margin-left: 150px;
+        float: left;
+    }
+    .wei ul{
+        margin-top: 20px;
+        float: left;
+        margin-left: 55px;
+    }
+    .wei li{
+        line-height: 30px;
+        color: rgb(175, 173, 173);
+        list-style: none;
+        font-size: 14px;
+    }
+    .wei1{
+        width: 150px;
+        height: 290px;
+        float: right;
+        margin-right: 300px;
+        /* border: 1px solid red; */
+    }
+    .wei1 p{
+        text-align: center;
+        color: white;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+</style>
+<body>
+    <div class="huawei clearfix">
+      <!-- 页眉 -->
+      <header>
+       <div class="header_l">
+         <img src="./华为/images/huaweilogo.jpg" alt=""><span>HUAWEI</span>
+         <ul>
+             <li>首页</li>
+             <li>社会招聘</li>
+             <li class="l1">校园招聘<img src="./华为/images/无标题.png" alt=""></li>
+             <li>华为认证</li>
+             <li>华为开放日</li>
+             <li>认识华为</li>
+             <li class="l2">个人中心<img src="./华为/images/无标题.png" alt=""></li>
+         </ul>
+       </div>
+       <div class="header_r">
+           <span>注册 | 登录</span> <img src="./华为/images/cts-200709190958253.png" alt=""> <span>Worldwide</span>
+       </div>
+      </header>
+       <nav>
+           <h1>勇敢新世界</h1>
+           <form action="#">
+               <input type="text" placeholder="请选择招聘类型，在输入关键字">
+               <input type="submit" value="搜索">
+               <div class="zp">
+                   <input type="radio" class="zp1" checked><span>校园招聘</span>
+                   <input type="radio" class="zp2"><span>社会招聘</span>
+               </div>
+           </form>
+       </nav>
+       <div class="tiao"></div>
+       <!-- 中间 -->
+       <div class="biaoti">来这里，和华为一起工作</div>
+       <div class="nr">
+         <div class="nr1">
+             <img src="./华为/images/1华为官网首页_03.jpg" alt="">
+             <p class="p1">社会招聘</p>
+             <p class="p2">把数字世界带入每个人、每个家庭、每个组织，构建万物互联的智能世界</p>
+         </div>
+         <div class="nr1">
+            <img src="./华为/images/1华为官网首页_05.jpg" alt="">
+            <p class="p1">校园招聘</p>
+            <p class="p2">欢迎胸怀世界、坚韧平实、洞见新知的你，我们一起走进”勇敢新世界”</p>
+         </div>
+         <div class="nr1">
+            <img src="./华为/images/1华为官网首页_09.jpg" alt="">
+            <p class="p1">华为简介</p>
+            <p class="p2">了解华为:因为你的加入，让世界更智能!</p>
+        </div>
+        <div class="nr1">
+            <img src="./华为/images/1华为官网首页_10.jpg" alt="">
+            <p class="p1">成长</p>
+            <p class="p2">师兄师姐说:在华为工作是一种怎样的体....</p>
+        </div>
+        <div class="nr1">
+            <img src="./华为/images/1华为官网首页_13.jpg" alt="">
+            <p class="p1">华为认证</p>
+            <p class="p2">华为认证，领先一步.</p>
+        </div>
+        <div class="nr1">
+            <img src="./华为/images/1华为官网首页_14.jpg" alt="">
+            <p class="p1">选择不凡</p>
+            <p class="p2">华为云招聘动物语言翻译师，用人工智能保护动物</p>
+        </div>
+       </div>
+    </div>
+           <!-- 页尾 -->
+    <footer>
+          <div class="wei">
+            <ul>
+                <li style="color: white; font-size: 16px;">关于华为</li>
+                <li>公司简介</li>
+                <li>公司简介</li>
+                <li>高管信息</li>
+                <li>可持续发展</li>
+                <li>网络安全</li>
+                <li>出版物</li>
+                <li>公司年报</li>
+            </ul>
+            <ul>
+                <li style="color: white; font-size: 16px;">新闻 & 展会</li>
+                <li>新闻</li>
+                <li>安全通告</li>
+                <li>展会活动</li>
+            </ul>
+            <ul>
+                <li style="color: white; font-size: 16px;">快速链接</li>
+                <li>华为商城</li>
+                <li>荣耀官网</li>
+                <li>心声社区</li>
+                <li>华为云</li>
+                <li>华为企业业务</li>
+            </ul>
+            <ul>
+                <li style="color: white; font-size: 16px;">行业洞察</li>
+                <li>全联接世界</li>
+                <li>全球联接指数</li>
+            </ul>
+          </div>
+          <div class="wei1">
+                 <p>关注我们</p>
+                 <p><img src="./华为/images/1华为官网首页_18.jpg" alt="">
+                 <img src="./华为/images/1华为官网首页_20.jpg" alt=""></p>
+                 <p><img src="./华为/images/1华为官网首页_24.jpg" alt=""></p>
+                 <p>官方微信</p>
+          </div>
+    </footer>
+</body>
+</html>

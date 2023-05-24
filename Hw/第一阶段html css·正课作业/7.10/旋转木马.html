@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            perspective: 1000px;
+        }
+        .wrap {
+            position: relative;
+            width: 300px;
+            height: 400px;
+            border: 1px solid red;
+            /* 水平居中 */
+            margin:200px auto;
+            /* 给子元素开启3d空间 */
+            transform-style: preserve-3d;
+            /* 添加旋转的动画 */
+            animation: rotate1 1s linear infinite alternate;
+            /* 添加背景图片 */
+            background-image: url("baby.png");
+            /* 背景图的大小 */
+            background-size: 300px 400px;
+        }
+        .wrap div {
+            position: absolute;
+            top:0;
+            left:0;
+            width: 300px;
+            height: 400px;
+        }
+        img {
+            width: 300px;
+            height: 400px;
+        }
+        .box1 {
+            transform: translateZ(300px);
+        }
+        .box2 {
+            transform: rotateY(60deg) translateZ(300px);
+        }
+        .box3 {
+            transform: rotateY(120deg) translateZ(300px);
+        }
+        .box4 {
+            transform: rotateY(180deg) translateZ(300px);
+        }
+        .box5 {
+            transform: rotateY(240deg) translateZ(300px);
+        }
+        .box6 {
+            transform: rotateY(300deg) translateZ(300px);
+        }
+        @keyframes rotate1 {
+            0% {
+                /* transform: rotateY(0deg) rotateZ(0deg); */
+                transform: rotate3d(0,1,1,0deg);
+            }
+            100% {
+                /* transform: rotateY(360deg) rotateZ(360deg); */
+                transform: rotate3d(0,1,1,360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="box1">
+            <img src="./baby.png" alt="">
+        </div>
+        <div class="box2">
+            <img src="./pic2.jpg" alt="">
+        </div>
+        <div class="box3">
+            <img src="./baby.png" alt="">
+        </div>
+        <div class="box4">
+            <img src="./pic2.jpg" alt="">
+        </div>
+        <div class="box5">
+            <img src="./baby.png" alt="">
+        </div>
+        <div class="box6">
+            <img src="./pic2.jpg" alt="">
+        </div>
+    </div> 
+</body>
+</html>

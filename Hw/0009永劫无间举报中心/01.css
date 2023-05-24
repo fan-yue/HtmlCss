@@ -1,0 +1,79 @@
+.top{
+    width: 100%;
+    height: 90px;
+    background: url(./nav-bg_362eb142.webp) repeat-y;
+    background-size: 100% 100%;
+    position: fixed;
+    z-index: 99;
+}
+.top-a{
+    float: left;
+    width: 250px;
+    height: 90px;
+    background: url(./logo_eb065e06.webp) no-repeat;
+    background-size: cover;
+}
+.nav-box{
+    width: 1160px;
+    height: 90px;
+    float: right;
+    line-height: 90px;
+}
+.nav-box li{
+    list-style: none;
+    float: left;
+}
+.nav-box a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: '楷体';
+    margin-left: 30px;
+}
+
+.nav-box a:hover{
+    color: #e77103;
+}
+
+.con{
+    width: 100%;
+    height: 1000px;
+    background-color: red;
+    background: url(./bg_ccf27733.webp);
+    background-size: cover;
+    position: relative;
+}
+.people{
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    background: url(./kv_cefcb5ce.webp) -50px 0;
+    background-size: cover;
+}
+.content{
+    width: 920px;
+    border: 1px solid black;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+.content-weihu{
+    width: 920px;
+    height: 70px;
+    background: url(./sprite-db44b6_db44b673.webp);
+    background-size: cover;
+}
+.content-jubaorukou{
+    width: 820px;
+    height: 800px;
+    background-color: aqua;
+    color: white;
+    padding: 35px 30px;
+    background: url(./bg-info_c2de96b3.webp);
+    background-size: cover;
+}
+.content-jubaorukou h3,p{
+    height: 40px;
+    line-height: 40px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 295px;
+            height: 165px;
+            border: 1px solid black;
+            border-radius: 5px;
+            /* 定位：相对 */
+            position: relative;
+        }
+        .box_1{
+            width: 295px;
+            height: 165px;
+            background-color: aqua;
+            background: url(./641a76270903320205400304.png);
+            background-size: cover;
+        }
+        .box_2{
+            width: 65px;
+            height: 25px;
+            background-color: red;
+            /* 定位:绝对 */
+            position: absolute;
+            top: 0;
+            right: -1px;
+            background: url(./icon-new.png);
+            /* 背景图片大小：cover(100%填充) */
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box_1"></div>
+        <div class="box_2"></div>
+    </div>
+</body>
+</html>

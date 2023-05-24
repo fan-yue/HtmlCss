@@ -60,7 +60,7 @@ display隐藏元素后，不再占有原来的位置
 
 
 
-例子：css设置属性为visibility，属性值设置为hidden，以下为产生的效果
+例子：css设置属性为`visibility`，属性值设置为`hidden`，以下为产生的效果
 
 ![image-20211201215303894](14display显示隐藏元素.assets/image-20211201215303894.png)
 
