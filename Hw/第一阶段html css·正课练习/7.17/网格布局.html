@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .warp{
+        display: grid;
+        width: 600px;
+        height: 500px;
+        background-color: aquamarine;
+        /* 属性定义每列列宽 */
+        /* 也可用百分比 */
+        /* grid-template-columns: 100px 50px 200px 50px 200px; */
+        /* 属性定义每列行高 */
+        /* 也可用百分比 */
+        /* grid-template-rows: 50px 200px 50px 200px; */
+        /* 函数 */
+        /* grid-template-columns: repeat(3,200px); */
+        /* grid-template-rows: repeat(2,50px 200px); */
+
+        /* minmax */
+        /* grid-template-columns: 100px minmax(120px,499px); */
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 100px 100px 100px;
+        /* place-items: stretch; */
+        /* grid-gap: 20px 50px; */
+        place-content: center center;
+    }
+    .warp>div:nth-child(odd){
+        background-color: black;
+    }
+    .warp>div:nth-child(even){
+        background-color: white;
+    }
+</style>
+<body>
+    <div class="warp">
+        <div class="box1">mox1</div>
+        <div class="box2">mox2</div>
+        <div class="box3">mox3</div>
+        <div class="box4">mox4</div>
+        <div class="box5">mox5</div>
+        <div class="box6">mox6</div>
+        <div class="box7">mox7</div>
+        <div class="box8">mox8</div>
+        <div class="box9">mox9</div>
+    </div>
+</body>
+</html>

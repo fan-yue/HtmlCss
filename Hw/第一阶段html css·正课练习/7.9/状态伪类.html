@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* 改变界面上 */
+    input[type="text"]:enabled{
+        background-color: aqua;
+    }
+    /* 改变界面上属于禁用样式的元素 */
+    input[type="text"]:disabled{
+        background-color: burlywood;
+    }
+    /* 改变界面上属于选中状态的元素 */
+    input[type="radio"]:checked+span{
+        background-color: rgb(224, 20, 156);
+    }
+</style>
+<body>
+    <form action="#">
+        <input type="text" placeholder="请输入用户名">请输入用户名
+        <input type="text" disabled placeholder="请输入昵称">请输入昵称
+        <input type="radio" checked>男<span>她啊</span>
+    </form>
+</body>
+</html>

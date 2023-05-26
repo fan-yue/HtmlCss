@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+        /* 结构性伪类选择器 */
+    /* li:first-child{
+        background-color: deepskyblue;
+    }
+    ul :last-child{
+        background-color: firebrick;
+    } */
+    /* 可以是数字，关键词，表达式 */
+    /* 正着数 */
+    li:nth-child(even){
+        background-color: goldenrod;
+    }
+    /* 倒着数 */
+    li:nth-last-child(2n){
+        background-color: indianred;
+    }
+</style>
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,56 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 547px;
+    height: 133px;
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box1{
+    width: 20%;
+    height: 50%;
+    /* border: 1px solid gold; */
+}
+.pox{
+    width: 100%px;
+    height: 33px;
+    /* border: 1px solid red; */
+    background: url(./images/un_ico_subnav2x@v7.152.png) no-repeat 40px 4px;
+    background-size: 28px auto;
+}
+.box1 p{
+    text-align: center;
+    font-size: 12px;
+}
+.box1:nth-child(2) .pox{
+    background-position: 40px -25px;
+}
+.box1:nth-child(3) .pox{
+    background-position: 40px -53px;
+}
+.box1:nth-child(4) .pox{
+    background-position: 40px -81px;
+}
+.box1:nth-child(5) .pox{
+    background-position: 40px -109px;
+}
+.box1:nth-child(6) .pox{
+    background-position: 40px -137px;
+}
+.box1:nth-child(7) .pox{
+    background-position: 40px -165px;
+}
+.box1:nth-child(8) .pox{
+    background-position: 40px -193px;
+}
+.box1:nth-child(9) .pox{
+    background-position: 40px -220px;
+}
+.box1:nth-child(10) .pox{
+    background-position: 40px -248px;
+}

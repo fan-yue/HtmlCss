@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* 版心 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 浮动 */
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+
+/* list */
+.list {
+    width: 377px;
+    min-height: 200px;
+    border: 1px solid #cddfb2;
+    margin-right: 30px;
+}
+.list.last {
+    margin-right: 0;
+}
+.list .title {
+    height: 66px;
+    line-height: 66px;
+    padding: 0 20px;
+    background: url("./images/new.png") no-repeat center center;
+}
+.list .title h3 {
+    font-size: 22px;
+    color: #5b9400;
+}
+.list .title img {
+    margin-top: 18px;
+}
+.list .content .item {
+    height: 68px;
+    padding: 0 20px;
+    margin-top: 14px;
+    
+}
+.list .content .item:hover {
+    background-color: #fafafa;
+}
+.list .content .item .number {
+    margin-top: 20px;
+    font: bold 14px / 14px "微软雅黑";
+    color: #5b9400;
+
+}
+.list .content .item .item-cont {
+    margin: 10px 0 8px 0;
+}
+.list .content .item img {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #eee;
+    margin: 0 8px 0 12px;
+}
+.list .content .item  .text {
+    width: 160px;
+    margin-top: 5px;
+}
+
+.list .content .item  .text>p {
+    font-size: 12px;
+    line-height: 21px;
+    color: #333;
+}
+.list>a {
+    display: block;
+    font-size: 12px;
+    line-height: 34px;
+    color: #999;
+    text-decoration: none;
+    text-align: right;
+    margin-right: 20px;
+}

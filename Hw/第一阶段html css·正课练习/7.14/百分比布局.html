@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .pox{
+        width: 20%;
+        height: 200px;
+        background-color: coral;
+        margin: 1%;
+    }
+    @media screen and (max-width: 1000px){
+        .pox{
+            width: 40%;
+            background-color: crimson;
+        }
+    }
+</style>
+<body>
+    <div class="box">
+         <div class="pox">1000</div>
+         <div class="pox">2000</div>
+         <div class="pox">3000</div>
+         <div class="pox">4000</div>
+    </div>
+</body>
+</html>

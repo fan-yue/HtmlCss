@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .warp>div{
+        min-height: 300px;
+        float: left;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 700;
+        color: magenta;
+        line-height: 300px;
+    }
+    .left,.right{
+        width: 400px;
+        background-color: lightslategray;
+    }
+    .center{
+        width: calc(100% - 400px * 2);
+        background-color: lime;
+    }
+    .clearfix::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .clearfix{
+        *zoom: 1;
+    }
+</style>
+<body>
+    <div class="warp clearfix">
+        <div class="left">左</div>
+        <div class="center">中</div>
+        <div class="right">右</div>
+    </div>
+</body>
+</html>

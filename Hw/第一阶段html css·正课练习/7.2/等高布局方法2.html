@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.clearfix::after{
+    /* 清除最大浮动 */
+    content: "";
+    display: block;
+    clear: both;
+}
+.clearfix{
+    *zoom: 1;
+}
+.wai{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.he1{
+    width: 100%;
+    background-color: blue;
+    /* 不定位本来就占位置 */
+}
+.he2{
+    /* 定位将内容露出来 */
+    width: 100%;
+    background-color: rgb(0, 255, 42);
+    position: relative;
+    left: 300px;
+}
+.he3{
+    /* 23定位了相对与第二个移出覆盖效果 */
+    width: 100%;
+    background-color: rgb(255, 145, 0);
+    position: relative;
+    left: 400px;
+}
+.he3>div{
+    float: left;
+    min-height: 400px;
+}
+.zuo{
+    width: 300px;
+    margin-left: -700px;
+    /* 将字移回该有的位置 */
+}
+.zhong{
+    width: 400px;
+    margin-left: -400px;
+    /* 将字移回本该在的位置 */
+}
+.you{
+    width: 300px;
+}
+</style>
+<body>
+    <div class="wai">
+        <div class="he1">
+              <div class="he2">
+                  <div class="he3 clearfix">
+                      <div class="zuo">左侧盒子</div>
+                      <div class="zhong">中间盒子</div>
+                      <div class="you">右侧盒子</div>
+                  </div>
+              </div>
+        </div>
+    </div>
+</body>
+</html>

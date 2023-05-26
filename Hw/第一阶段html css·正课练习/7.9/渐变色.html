@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        width: 300px;
+        height: 300px;
+        border: 1px solid black;
+        float: left;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .box1{
+        background: linear-gradient(red,yellow,purple);
+    }
+    .box2{
+        background: linear-gradient(to top, red,yellow);
+    }
+    .box3{
+        background: linear-gradient(to top right, red,yellow);
+    }
+    .box4{
+        background: linear-gradient( red,orange,yellow,green,cyan,blue,purple);
+    }
+    .box5{
+        background: linear-gradient(to right bottom,red 30%,green 30%,blue);
+    }
+    .box6{
+        background: linear-gradient( to right,red 0%,red 14%,orange 14%,orange 28%,yellow 28%,yellow 42%,green 42%,green 56%,cyan 56%,cyan 70%,blue 70%,blue 84%,purple 84%);
+    }
+    .box7{
+        background: -webkit-linear-gradient(red,yellow,purple);
+        background: -o-linear-gradient(red,yellow,purple);
+        background: -ms-linear-gradient(red,yellow,purple);
+        background: -moz-linear-gradient(red,yellow,purple);
+        background: linear-gradient(red,yellow,purple);
+    }
+    .box8{
+        background: -webkit-radial-gradient(purple,cyan);
+        background: -ms-radial-gradient(purple,cyan);
+        background: -o-radial-gradient(purple,cyan);
+        background: -moz-radial-gradient(purple,cyan);
+        background: radial-gradient(purple,cyan);
+    }
+    .box9{
+        background: -o-repeating-radial-gradient(black 10%,white 20%);
+        background: -webkit-repeating-radial-gradient(black 10%,white 20%);
+        background: -ms-repeating-radial-gradient(black 10%,white 20%);
+        background: -moz-repeating-radial-gradient(black 10%,white 20%);
+        background: repeating-radial-gradient(black 20%,white 30%);
+    }
+</style>
+<body>
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div>
+    <div class="box box5"></div>
+    <div class="box box6"></div>
+    <div class="box box7"></div>
+    <div class="box box8"></div>
+    <div class="box box9"></div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .box{
+        width: 280px;
+        background-color: #eee;
+    }
+    .box .a{
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        background: url(./images/ujiuye.png)no-repeat -81px 0;
+        margin: 0 10px 0 15px;
+        vertical-align: bottom;
+    }
+    .box .b{
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        background: url(./images/ujiuye.png)no-repeat -149px -23px;
+        margin: 0 10px 0 15px;
+        vertical-align: bottom;
+    }
+    .box .box1:hover{
+        background-color: white;
+        color: tomato;
+    }
+    .box .box1:hover .a{
+        background: url(./images/ujiuye.png)no-repeat -65px -85px;
+    }
+    .box .box2:hover{
+        background-color: white;
+        color: tomato;
+    }
+    .box .box2:hover .b{
+        background: url(./images/ujiuye.png)no-repeat -149px -61px;
+    }
+</style>
+<body>
+    <ul class="box">
+        <li class="box1">
+            <span class="a"></span>Java开发
+        </li>
+        <li class="box2">
+            <span class="b"></span>人工智能
+        </li>
+    </ul>
+</body>
+</html>

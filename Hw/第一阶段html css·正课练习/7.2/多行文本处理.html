@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    p{
+        width: 200px;
+        height: 60px;
+        line-height: 30px;
+        border: 1px solid blue;
+        position: relative;
+        overflow: hidden;
+    }
+    p::after{
+        content: "...";
+        display: block;
+        position: absolute;
+        right: 2px;
+        bottom: 0px;
+        background-color: white;
+        padding: 0 5px;
+    }
+</style>
+<body>
+    <p>aaaaaaaaaaaaaaaa啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</p>
+</body>
+</html>

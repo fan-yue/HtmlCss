@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* css2中属性选择器 */
+    /* div[class]{
+        background-color: aqua;
+    } */
+    /* div[class="box1"]{
+        background-color: blue;
+    }
+    div[class~="box1"]{
+        background-color: coral;
+    } */
+    /* css3中新增的属性选择器 */
+    div[class^="box"]{
+        background-color: darkcyan;
+    }
+    div[class$="box"]{
+        background-color: darksalmon;
+    }
+    div[class*="mox"]{
+        background-color: deeppink;
+    }
+
+
+</style>
+<body>
+    <div>box1</div>
+    <div class="box1">box1</div>
+    <div id="box2">box2</div>
+    <div class="box1 box33">123</div>
+    <div class="1box">456</div>
+    <div class="box2 box34">456</div>
+    <div class="mox2 box34">456</div>
+
+</body>
+</html>
